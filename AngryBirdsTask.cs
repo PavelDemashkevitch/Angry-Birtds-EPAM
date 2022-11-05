@@ -16,7 +16,7 @@ namespace AngryBirds
 			double distanceMax = (v * v) / g;
 			if (distanceMax > 0 && distanceMax >= distance)
 			{
-                return 0.5 * Math.Asin(distance * g / (v * v));
+                		return 0.5 * Math.Asin(distance * g / (v * v));
 			}
 						
 			return double.NaN;
